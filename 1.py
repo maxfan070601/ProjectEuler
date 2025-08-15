@@ -8,4 +8,8 @@ def compute_multiples():
         sum -= i
     return sum
 
+def compute_multiples_advanced():
+    return (3 + 999) / 2 * 333 + (5 + 995) / 2 * 199 - (15 + 990) / 2 * 66
+
 print(compute_multiples())
+print(compute_multiples_advanced())
