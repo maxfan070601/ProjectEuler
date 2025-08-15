@@ -3,11 +3,11 @@ def fibonacci():
     prev1 = 1
     prev2 = 1
     while prev1 + prev2 <= 4000000:
-        sum = prev1 + prev2
-        if sum % 2 == 0:
-            even_sum += sum
+        s = prev1 + prev2
+        if s % 2 == 0:
+            even_sum += s
         prev2 = prev1
-        prev1 = sum
+        prev1 = s
     return even_sum
 
 print(fibonacci())
