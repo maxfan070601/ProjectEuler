@@ -1,12 +1,12 @@
 def compute_multiples():
-    sum = 0
+    s = 0
     for i in range(0, 1000, 3):
-        sum += i
+        s += i
     for i in range(0, 1000, 5):
-        sum += i
+        s += i
     for i in range(0, 1000, 15):
-        sum -= i
-    return sum
+        s -= i
+    return s
 
 def compute_multiples_advanced():
     return (3 + 999) / 2 * 333 + (5 + 995) / 2 * 199 - (15 + 990) / 2 * 66
